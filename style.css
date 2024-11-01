@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    background: #222;
+    width: 400px; /* Set a fixed width for the popup */
+
+
+}
+
+.card {
+    width: 92%; /* Use full width of the popup */
+    
+    background: linear-gradient(135deg, #9a2c0a, #5b548a);
+    color: #fff;
+    margin: 0px auto; /* Reduced margin */
+    border-radius: 10px; /* Reduced border-radius */
+    padding: 20px 15px; /* Reduced padding */
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 8px 10px; /* Reduced padding */
+    height: 36px; /* Adjusted height */
+    border-radius: 20px; /* Reduced border-radius */
+    flex: 1;
+    margin-right: 8px; /* Reduced margin */
+    font-size: 14px; /* Reduced font size */
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 40px; /* Reduced width */
+    height: 40px; /* Reduced height */
+    cursor: pointer;
+}
+
+.search button img {
+    width:91px; /* Reduced icon size */
+    margin-left:-23.6px;
+    margin-top:-2.4px;
+}
+
+.weather-icon {
+    width: 100px; /* Reduced icon size */
+    margin-top: 15px; /* Reduced margin */
+}
+
+.weather h1 {
+    font-size: 40px; /* Reduced font size */
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 24px; /* Reduced font size */
+    font-weight: 400;
+    margin-top: -5px; /* Reduced margin */
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px; /* Reduced padding */
+    margin-top: 20px; /* Reduced margin */
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 30px; /* Reduced icon size */
+    margin-right: 5px; /* Reduced margin */
+}
+
+.humidity, .wind {
+    font-size: 18px; /* Reduced font size */
+    margin-top: -2px; /* Reduced margin */
+}
